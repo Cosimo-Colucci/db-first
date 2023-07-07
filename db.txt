@@ -3,9 +3,9 @@ e inseritela in un file .txt all'interno della repo, proprio come fatto stamatti
 
 cars database
 
-
+id                      - Int Primary Key
 type_of_car             - String varchar(20)
-number_of_dors          - Intero
+number_of_dors          - Tinyint
 type_of_fuel            - String varchar(20)
 year_of_registration    - Year
 plate                   - String varchar(20)
@@ -15,5 +15,6 @@ weight                  - Fload(6,2)
 color                   - String varchar(20)
 max_speed               - Intero
 opsional                - String text
-kilometres              - Fload(9,2)
+kilometres              - MidiumInt
+price                   - Decimal(9,2)
 
