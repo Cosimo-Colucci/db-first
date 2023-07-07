@@ -1,0 +1,19 @@
+Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario,
+e inseritela in un file .txt all'interno della repo, proprio come fatto stamattina insieme.
+
+cars database
+
+
+type_of_car             - String varchar(20)
+number_of_dors          - Intero
+type_of_fuel            - String varchar(20)
+year_of_registration    - Year
+plate                   - String varchar(20)
+width                   - Fload(3,2)
+height                  - Fload(3,2)
+weight                  - Fload(6,2)
+color                   - String varchar(20)
+max_speed               - Intero
+opsional                - String text
+kilometres              - Fload(9,2)
+
